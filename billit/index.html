@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billit - Invoice & Contract Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0052CC 0%, #002B6B 100%);
+            color: white;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 28px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+            color: #0052CC;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 56px;
+            margin-bottom: 16px;
+            font-weight: 800;
+            letter-spacing: -2px;
+        }
+
+        .tagline {
+            font-size: 24px;
+            opacity: 0.95;
+            margin-bottom: 60px;
+            font-weight: 300;
+        }
+
+        .features {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 24px;
+            margin: 40px 0;
+            text-align: left;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .features h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .features ul {
+            font-size: 18px;
+            line-height: 2;
+            list-style: none;
+        }
+
+        .features li {
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li::before {
+            content: "✓";
+            margin-right: 12px;
+            color: #36B37E;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: white;
+            color: #0052CC;
+            padding: 18px 40px;
+            border-radius: 16px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 20px;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .footer {
+            margin-top: 80px;
+            opacity: 0.8;
+            font-size: 14px;
+            padding: 40px 0;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 16px;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .footer a:hover {
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 42px;
+            }
+            .tagline {
+                font-size: 20px;
+            }
+            .features {
+                padding: 24px;
+            }
+            .features ul {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">📄</div>
+        <h1>Billit</h1>
+        <p class="tagline">Create professional invoices and contracts in minutes.</p>
+
+        <div class="features">
+            <h2>✨ Features</h2>
+            <ul>
+                <li>Create invoices with your logo and signature</li>
+                <li>Generate contracts with pre-built templates</li>
+                <li>Export as PDF and share with clients</li>
+                <li>Manage clients and track history</li>
+                <li>Works offline - all data stored locally</li>
+                <li>No subscription required - one-time purchase</li>
+            </ul>
+        </div>
+
+        <a href="https://apps.apple.com/app/billit/idYOURAPPID" class="download-btn">
+            📥 Download on App Store
+        </a>
+
+        <div class="footer">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="mailto:[email protected]">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
