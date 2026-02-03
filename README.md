@@ -6,7 +6,7 @@
 
 ```
 lucky-websites/
-├── billit/                  # Billit App 网站
+├── docly/                   # Docly App 网站
 │   ├── index.html
 │   ├── privacy.html
 │   └── terms.html
@@ -23,7 +23,7 @@ lucky-websites/
 
 每个 App 使用独立的子域名和 Vercel 项目：
 
-- **Billit:** https://billit.fastdata.top
+- **Docly:** https://docly.fastdata.top
 - **App2:** https://app2.fastdata.top
 
 ## 添加新 App
